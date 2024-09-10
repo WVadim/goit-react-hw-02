@@ -1,3 +1,3 @@
-const Notification = () => <p>No feedback given yet.</p>;
+const Notification = ({ message }) => <p>{message}</p>;
 
 export default Notification;
